@@ -1,8 +1,9 @@
 Version: 1
-Previous: 4a8f382687380ccaec5c8b07b8fbd3032edc45e1
-Head: ce23fd005488b4007709a164ea4dd9636ed96ca6
+Previous: f6f898ef5dec1292eb76bfab5580d11847763afe
+Head: d2964b3cea61a1b423210e5681d4cd64d34304f4
 Applied:
   scroll-back-through-terminal: ce23fd005488b4007709a164ea4dd9636ed96ca6
+  refresh-temp: d2964b3cea61a1b423210e5681d4cd64d34304f4
 Unapplied:
   spawn-a-child-terminal: ef9785aabd32940c31c1275fd85f0602a0bcfae6
 Hidden:
