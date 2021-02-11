@@ -1,6 +1,7 @@
 Version: 1
-Previous: None
+Previous: c6f8d39b2daad01841890c531a662421c6312fb1
 Head: ef9785aabd32940c31c1275fd85f0602a0bcfae6
 Applied:
+  spawn-a-child-terminal: ef9785aabd32940c31c1275fd85f0602a0bcfae6
 Unapplied:
 Hidden:
