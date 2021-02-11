@@ -1,8 +1,8 @@
 Version: 1
-Previous: f23f076fa42e0cea8ee99f68a2b7cd4d5137a5c0
-Head: ef9785aabd32940c31c1275fd85f0602a0bcfae6
+Previous: 4a8f382687380ccaec5c8b07b8fbd3032edc45e1
+Head: ce23fd005488b4007709a164ea4dd9636ed96ca6
 Applied:
   scroll-back-through-terminal: ce23fd005488b4007709a164ea4dd9636ed96ca6
-  spawn-a-child-terminal: ef9785aabd32940c31c1275fd85f0602a0bcfae6
 Unapplied:
+  spawn-a-child-terminal: ef9785aabd32940c31c1275fd85f0602a0bcfae6
 Hidden:
