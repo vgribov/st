@@ -1069,6 +1069,29 @@ tswapscreen(void)
 }
 
 void
+spawn(const Arg *dummy)
+{
+    ssize_t sz;
+    char shcwd[40];
+
+    snprintf(shcwd, LEN(shcwd), "/proc/%d/cwd", pid);
+    sz = readlink(shcwd, shcwd, LEN(shcwd));
+    if (sz == -1) {
+        perror("readlink");
+        return;
+    }
+    shcwd[sz] = '\0';
+
+    if (!fork()) {
+        if (chdir(shcwd) == -1) {
+            perror("chdir");
+        }
+        execl("/proc/self/exe", "st", NULL);
+        _exit(1);
+    }
+}
+
+void
 kscrolldown(const Arg* a)
 {
 	int n = a->i;
