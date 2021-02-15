@@ -221,6 +221,7 @@ static DC dc;
 static XWindow xw;
 static XSelection xsel;
 static TermWindow win;
+char **st_args;
 
 /* Font Ring Cache */
 enum {
@@ -1998,6 +1999,8 @@ usage(void)
 int
 main(int argc, char *argv[])
 {
+    st_args = argv;
+
 	xw.l = xw.t = 0;
 	xw.isfixed = False;
 	xsetcursor(cursorshape);

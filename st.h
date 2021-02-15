@@ -86,6 +86,7 @@ void kscrollup(const Arg *);
 void printscreen(const Arg *);
 void printsel(const Arg *);
 void sendbreak(const Arg *);
+void spawn(const Arg *dummy);
 void toggleprinter(const Arg *);
 
 int tattrset(int);
